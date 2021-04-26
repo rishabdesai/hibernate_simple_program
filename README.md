@@ -38,4 +38,9 @@
 ### XML_based_mapping
 - Hibernate 3 added annotation for ORM
 - earlier versions does ORM using  .hbm.xml file
-	
+
+### openSession_and_getCurrentSession
+- difference between openSession() and getCurrentSession()
+
+### hibernate_bootstrapping
+-
