@@ -35,3 +35,7 @@
 	- if object exists, update query fired, otherwise insert query is fired.
 	- JPA compliant
 	
+### XML_based_mapping
+- Hibernate 3 added annotation for ORM
+- earlier versions does ORM using  .hbm.xml file
+	
