@@ -3,7 +3,6 @@ package pojos;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -21,12 +20,11 @@ public class Dept {
 	private String dname;
 	@Column
 	private String loc;
-	
-	//one dept has many employee
-	@OneToMany(mappedBy = "deptno", fetch = FetchType.LAZY,   // deptno = foreign key FIELD of Emp class.
-			cascade = { CascadeType.PERSIST, CascadeType.REMOVE } )
+
+	// one dept has many employee
+	@OneToMany(mappedBy = "deptno", fetch = FetchType.LAZY) // deptno = foreign key FIELD of Emp class
 	private List<Emp> empList;
-	
+
 	public Dept() {
 		this(0, "", "");
 	}
@@ -61,8 +59,6 @@ public class Dept {
 	public void setLoc(String loc) {
 		this.loc = loc;
 	}
-	
-	
 
 	public List<Emp> getEmpList() {
 		return empList;
