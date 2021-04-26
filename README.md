@@ -49,8 +49,12 @@
 	- Create SessionFactory
 
 ###	SQL_HQL_queries
--SQL query
--HQL query
+- SQL query
+- HQL query
+
+### primary_key
+- user of @GeneratedValue, Strategy=GenerationType.IDENTITY, AUTO, TABLE, SEQUENCE
+- @Embaddable, @EmbeddedId
 
 	
 	
