@@ -31,29 +31,7 @@ public class Emp {
 	public Emp() {
 	}
 
-//	public Emp(int empno, String ename, String job, Integer mgr, Date hire, Double sal, Double comm) {
-//		super();
-//		this.empno = empno;
-//		this.ename = ename;
-//		this.job = job;
-//		this.mgr = mgr;
-//		this.hire = hire;
-//		this.sal = sal;
-//		this.comm = comm;
-//	}
-	
 
-//	public Emp(int empno, String ename, String job, Integer mgr, Date hire, Double sal, Double comm, int deptno) {
-//		super();
-//		this.empno = empno;
-//		this.ename = ename;
-//		this.job = job;
-//		this.mgr = mgr;
-//		this.hire = hire;
-//		this.sal = sal;
-//		this.comm = comm;
-//		this.deptno = deptno;
-//	}
 
 	public int getEmpno() {
 		return empno;
