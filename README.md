@@ -1,6 +1,6 @@
 # hibernate basic code
 
-[click here] (https://drishabh.wordpress.com/2020/07/09/advance-java-hibernate/)
+[click here](https://drishabh.wordpress.com/2020/07/09/advance-java-hibernate/)
 
 ### hibernate_basic_withoutDAO
 - connect to database using Hibernate without using DAO layer
@@ -47,6 +47,11 @@
 	- Create ServiceRegistry (interface - use to add, manage hibernate services/functionality)
 	- Create Metadata (ORM part - use for ORM mapping information) 
 	- Create SessionFactory
+
+###	SQL_HQL_queries
+-SQL query
+-HQL query
+
 	
 	
 
