@@ -56,6 +56,10 @@
 - user of @GeneratedValue, Strategy=GenerationType.IDENTITY, AUTO, TABLE, SEQUENCE
 - @Embaddable, @EmbeddedId
 
+### relations
+- OneToMany
+- ManyToOne
+
 	
 	
 
