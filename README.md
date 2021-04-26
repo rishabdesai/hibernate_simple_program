@@ -42,5 +42,13 @@
 ### openSession_and_getCurrentSession
 - difference between openSession() and getCurrentSession()
 
-### hibernate_bootstrapping
+### hibernate5_bootstrapping
+- steps
+	- Create ServiceRegistry (interface - use to add, manage hibernate services/functionality)
+	- Create Metadata (ORM part - use for ORM mapping information) 
+	- Create SessionFactory
+	
+	
+
+
 -
