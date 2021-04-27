@@ -30,7 +30,7 @@ public class Emp {
 	@Column
 	private Double comm;
 	
-
+	// one emp has one address
 	@OneToOne
 	@PrimaryKeyJoinColumn
 	private Address addr;

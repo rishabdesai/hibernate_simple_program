@@ -17,6 +17,7 @@ public class Address {
 	@Column
 	private String country;
 	
+	//one address belongs to one Emp
 	@OneToOne(mappedBy = "addr")
 	private Emp emp;
 	
