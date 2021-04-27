@@ -13,6 +13,8 @@ import utils.HbUtil;
 
 public class Hb01Main {
 	public static void main(String[] args) {
+
+		//display both veg and non-veg items		
 		try {
 			HbUtil.beginTransaction();
 			String hql = "from Item i";
@@ -30,6 +32,24 @@ public class Hb01Main {
 			HbUtil.rollbackTransaction();
 			e.printStackTrace();
 		}
-		HbUtil.shutdown();
+		
+		
+		
+//		//display only veg items
+//		try {
+//			HbUtil.beginTransaction();
+//			String hql = "from VegItem i";
+//			Session session = HbUtil.getSession();
+//			Query<Item> q = session.createQuery(hql);
+//			List<Item> list = q.getResultList();
+//			for (Item i : list) {
+//					System.out.println("Veg" + i);
+//			}
+//			HbUtil.commitTransaction();
+//		} catch (Exception e) {
+//			HbUtil.rollbackTransaction();
+//			e.printStackTrace();
+//		}
+//		HbUtil.shutdown();
 	}
 }
