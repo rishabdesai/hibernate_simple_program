@@ -74,7 +74,8 @@
 
 ### JPA
 
-
+### Forward Engineering
+- POJO first (First create entity class and then auto-create RDBMS tables)
 	
 	
 
