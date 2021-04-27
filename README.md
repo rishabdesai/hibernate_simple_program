@@ -56,9 +56,21 @@
 - user of @GeneratedValue, Strategy=GenerationType.IDENTITY, AUTO, TABLE, SEQUENCE
 - @Embaddable, @EmbeddedId
 
-### relations
-- OneToMany
-- ManyToOne
+### OneToMany 
+
+### ManyToOne
+
+### OneToOne
+
+### ManyToMany
+
+### Inheritance
+
+### SP_NamedNativeQuery
+- @NamedNativeQuery 
+- using Stored Procedure
+
+
 
 	
 	

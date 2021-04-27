@@ -1,0 +1,21 @@
+/*
+DELIMITER $$
+
+CREATE PROCEDURE SP_GET_PRICE(p_id INT, OUT p_price DOUBLE)
+BEGIN
+	SELECT price INTO p_price FROM BOOKS WHERE id=p_id;
+END;
+$$
+
+DELIMITER ;
+*/
+
+/*
+ CREATE PROCEDURE SP_GET_BOOKS(p_author text)
+BEGIN
+	SELECT id, name, author, subject, price  FROM BOOKS WHERE author=p_author;
+END;
+$$
+
+DELIMITER ;
+ */
