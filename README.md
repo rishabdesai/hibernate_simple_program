@@ -78,6 +78,11 @@
 - POJO first (First create entity class and then auto-create RDBMS tables)
 	
 	
+### u_check_JDBC_connection
+- simple JDBC connection code
 
+### u_hibernateConfig
+- use of hibernate.cfg.xml to connect to database
+- insert to database
 
 -
