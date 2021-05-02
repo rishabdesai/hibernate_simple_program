@@ -7,7 +7,7 @@ import org.hibernate.cfg.Configuration;
 
 import entity.Student;
 
-public class Main {
+public class Create_Student {
 	
 	public static void main(String[] args) {
 		
@@ -20,11 +20,11 @@ public class Main {
 		//create session
 		Session session = factory.getCurrentSession();
 		
-		
+		//insert in to database using save()
 		try {
 			System.out.println("Creating new student object");
 			//create student object
-			Student s1 = new Student("ram", "kumar", "ram@mail.com");
+			Student s1 = new Student("sham1", "singh1", "sham1@mail.com");
 			//start a transaction
 			session.beginTransaction();
 			//save the student object

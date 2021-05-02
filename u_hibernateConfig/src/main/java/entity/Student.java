@@ -2,6 +2,8 @@ package entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
@@ -10,6 +12,8 @@ import javax.persistence.Table;
 public class Student {
 
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int id;
 	@Column
 	private String first_name;
 	@Column
@@ -18,6 +22,14 @@ public class Student {
 	private String email;
 
 	public Student() {
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public Student(String first_name, String last_name, String email) {
@@ -52,9 +64,10 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return "Student [first_name=" + first_name + ", last_name=" + last_name + ", email=" + email + "]";
+		return "Student [id=" + id + ", first_name=" + first_name + ", last_name=" + last_name + ", email=" + email
+				+ "]";
 	}
 
-
+	
 
 }
