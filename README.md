@@ -85,4 +85,9 @@
 - use of hibernate.cfg.xml to connect to database
 - insert to database
 
--
+### u_OneToMany_mapping
+- @OneToMany
+
+### u_ManyToOne_mapping
+- @ManyToOne
+- @OneTo Many
